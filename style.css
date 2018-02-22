@@ -1,0 +1,22 @@
+#Buton{
+	float:left;
+	border-style: outset;
+	width:75px;
+	height:75px;
+}
+#Buton > p{
+	margin-top: 5px;
+	border-top: 0px;
+	font-size:50px;
+}
+#Buton > p:hover{
+	cursor:default;
+}
+#AfisareNumere{
+	width:324px;
+	border-style: solid;
+	border-color: #cccccc;
+	float:left;
+	height:75px;
+	margin-top: -80px;
+}
