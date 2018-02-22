@@ -20,6 +20,7 @@ function Semn(elem, semn){
 		text.value = "";
 		if(activ==2){
 			numar+=numar2;
+			numar2 =0;
 		}
 		activ = 2;
 		sens=1;
@@ -28,6 +29,7 @@ function Semn(elem, semn){
 	else if(semn=="-"){
 		if(activ==2){
 			numar-=numar2;
+			numar2 =0;
 		}
 		text.value = "";
 		activ = 2;
@@ -37,6 +39,7 @@ function Semn(elem, semn){
 	else if(semn=="*"){
 		if(activ==2){
 			numar*=numar2;
+			numar2 =0;
 		}
 		text.value = "";
 		activ = 2;
@@ -46,6 +49,7 @@ function Semn(elem, semn){
 	else if(semn=="/"){
 		if(activ==2){
 			numar/=numar2;
+			numar2 =0;
 		}
 		text.value = "";
 		activ = 2;
